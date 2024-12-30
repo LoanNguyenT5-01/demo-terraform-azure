@@ -3,10 +3,10 @@ provider "azurerm" {
   features {}
 
   # Specify the subscription ID
-  subscription_id = "daa58596-3010-4dd4-b81f-0cc9be025d87"
+  subscription_id = "your subscription_id"
   
   # Optional: Specify tenant ID if needed (can be skipped if using default tenant)
-  tenant_id       = "f4308c54-0208-43d3-afad-1f8df2f678b7"
+  tenant_id       = "your tenant_id"
 }
 
 # Create Resource Group
